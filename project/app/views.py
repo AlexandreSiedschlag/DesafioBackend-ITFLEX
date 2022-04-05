@@ -36,10 +36,7 @@ def Create(request):
     print(serializer)
     if serializer.is_valid():
         serializer.save()
-        print(serializer['id'])
-        x = serializer['id'].value
-        x = Certificados.objects.get(id=x)
-        print(x)
+        print('salvo')
     return Response(serializer.data)
 
 @api_view(['POST'])

@@ -7,14 +7,15 @@ class Certificados(models.Model):
     username = models.CharField(max_length=30, unique=True, null=False)
     name = models.CharField(max_length=255, null=False)
     description = models.TextField(null=True)
-    created_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(default=datetime.today())
     updated_at = models.DateTimeField(auto_now=True)
-    expiration = models.IntegerField(null=True)
-    expiration_at = models.DateTimeField(null=True)
+    expiration = models.PositiveIntegerField(null=True, blank=True)
+    expiration_at = models.DateTimeField(null=True, blank=True)
 
     def save(self, *args, **kwargs):
-        expiration_at = expiration_at
-        print(expiration_at)
+        print(f'xabuska = {self.created_at}')
+        self.expiration_at = self.created_at + timedelta(days=self.expiration)
+        super().save(*args,**kwargs)
     
     class Meta:
         db_table = 'Certificados'
@@ -23,10 +24,4 @@ class Certificados(models.Model):
         return self.username
     
 
-class test(models.Model):
-    expiration = models.IntegerField()
-    expiration_at = models.DateTimeField()
-    
-    #expiration = 10
-    #expiration_at = 4/4/2022 + 10days
         
