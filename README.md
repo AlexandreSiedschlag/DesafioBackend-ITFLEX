@@ -43,4 +43,4 @@ Allow to List/Add/Edit/Delete items. (:heavy_check_mark: done)<br />
 Upload your code in a GitHub repo(Public Acess). (:heavy_check_mark: done)<br />
 Write step-by-step the execution on README. (:heavy_check_mark: done)<br />
 Simple code(Readable). (:heavy_check_mark: done)<br />
-Heroku deploy([Deployed Page](https://arcane-refuge-76371.herokuapp.com/))
+Heroku deploy([Deployed Page](https://arcane-refuge-76371.herokuapp.com/)) (:heavy_check_mark: done)<br />
