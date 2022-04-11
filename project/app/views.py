@@ -31,7 +31,7 @@ def Detail(request, pk):
 @api_view(['POST'])
 def Create(request):
     serializer = CertificadosSerializer(data=request.data)
-    # {"username":"test1", "name":"tessst","expiration":10}
+    
     print('Aqui')
     print(serializer)
     if serializer.is_valid():
