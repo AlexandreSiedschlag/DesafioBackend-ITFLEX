@@ -34,7 +34,7 @@ Username = Unique, cant be duplicated
 
 4- Access [/update](https://arcane-refuge-76371.herokuapp.com/update/id) to update information to any item, change the 'id' for any positve integer available item.
 
-5- Access [/delete](https://arcane-refuge-76371.herokuapp.com/update/id) to delete information to any item, change the 'id' for any positive integer available item.
+5- Access [/delete](https://arcane-refuge-76371.herokuapp.com/delete/id) to delete information to any item, change the 'id' for any positive integer available item.
 
 6- Access [/filterby/username](https://arcane-refuge-76371.herokuapp.com/filterby/username) to filter information by username.
 
