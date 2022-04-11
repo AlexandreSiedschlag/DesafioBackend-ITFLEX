@@ -38,9 +38,9 @@ Username = Unique, cant be duplicated
 <br/>Remember, to use this view you need to use the Methods mentioned in the [Main Page](https://arcane-refuge-76371.herokuapp.com/).
 <br/>Use DELETE Method or enter the URL ex: "/delete/1" and press the RED button.
 
-6- Access [/filterby/username](https://arcane-refuge-76371.herokuapp.com/filterby/username) to filter information by username.
+6- Access [/orderby/username](https://arcane-refuge-76371.herokuapp.com/orderby/username) to order information by username.
 
-6- Access [/filterby/name](https://arcane-refuge-76371.herokuapp.com/filterby/name) to filter information by name.
+6- Access [/orderby/name](https://arcane-refuge-76371.herokuapp.com/orderby/name) to order information by name.
 
 ## Requirements acomplished :brain:
 Django aplication. (:heavy_check_mark: done) <br /> 
