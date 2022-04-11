@@ -22,7 +22,15 @@ Django 4.0 (Project)<br />
 SQLite3 (DataBase)<br />
 Heroku (Deploy)<br />
 
-## How to use(step-by-step) :arrow_forward:
+## How to use :arrow_forward:
+1- Access [Main Page](https://arcane-refuge-76371.herokuapp.com/)
+2- Access [List](https://arcane-refuge-76371.herokuapp.com/list) to see all data
+3- Access [Create](https://arcane-refuge-76371.herokuapp.com/create) to send a JSON format text to create data in data base.
+{"username":"username", "name":"Full name", "description":"Random text", "expiration":10}
+4- Access [Update](https://arcane-refuge-76371.herokuapp.com/update/id) to update information to any item, change the 'id' for any positve integer available item.
+5- Access [Delete](https://arcane-refuge-76371.herokuapp.com/update/id) to delete information to any item, change the 'id' for any positive integer available item.
+
+## How to makey your own API(step-by-step) :arrow_forward:
 1- Clone this repo in your machine.<br />
 2- Open it.<br />
 3- Cd into the project directory, "ThisIsTheProject", or until you find a folder with the file "manage.py" in the same folder. <br />
@@ -43,13 +51,6 @@ Write step-by-step the execution on README. (:heavy_check_mark: done)<br />
 Simple code(Readable). (:heavy_check_mark: done)<br />
 Heroku deploy([Deployed Page](https://arcane-refuge-76371.herokuapp.com/))
 
-
-
-## Aditional Info
-Note that, some information(like the Port column) from the main table of https://pt.proxyservers.pro/ is JavaScript feeded.
-BeautifulSoup cant handle this kind of information feed.
-To solve this problem would be necessary run a JavaScript program to collect that data. But by now lets leave it like this.
-In resume, if the information of the html is loaded without JavaScript, BeautifulSoup can collect it normally.
 
 # Issues
 CSS not working properly, i made the link from settings, django, html and css. But for some reason when i make some changes, its not updating properly. (1)
