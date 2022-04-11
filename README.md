@@ -4,16 +4,16 @@
 The goal of this challenge is to create an aplication that lists, adds, edits and deletes data from DataBase using the requirements below.
 
 ## Requirements:shopping_cart:
-Python 3
-REST API
-Save data in a SQLITE DB
-README
-Deploy into Heroku
+Python 3<br/>
+REST API<br/>
+Save data in a SQLITE DB<br/>
+README<br/>
+Deploy into Heroku<br/>
 
 ## Extra :rocket:
-Clean Architecture
-SQLAlchemy for DB
-SQL-Migrate to build DB
+Clean Architecture<br/>
+SQLAlchemy for DB<br/>
+SQL-Migrate to build DB<br/>
 
 # The project itself :green_circle:
 ## Technologys used :electron:
