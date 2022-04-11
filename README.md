@@ -35,31 +35,12 @@ Heroku (Deploy)<br />
 
 5- Access [Delete](https://arcane-refuge-76371.herokuapp.com/update/id) to delete information to any item, change the 'id' for any positive integer available item.
 
-## How to makey your own API(step-by-step) :arrow_forward:
-1- Clone this repo in your machine.<br />
-2- Open it.<br />
-3- Cd into the project directory, "ThisIsTheProject", or until you find a folder with the file "manage.py" in the same folder. <br />
-4- Run this code to start the application.<br />
-```python manage.py runserver```
-
-5- This will make the program run in Localhost.<br />
-6- If you wish, deploy it with heroku with any YT tutorial.<br /><br />
-
-
 ## Requirements acomplished :brain:
 Django aplication. (:heavy_check_mark: done) <br /> 
 Data must be saved in a SQLite DataBase. (:heavy_check_mark: done)<br />
 List data collected. (:heavy_check_mark: done)<br />
-Allow to Add/Edit/Delete itens in this list. (:heavy_check_mark: done)<br />
+Allow to List/Add/Edit/Delete items. (:heavy_check_mark: done)<br />
 Upload your code in a GitHub repo(Public Acess). (:heavy_check_mark: done)<br />
 Write step-by-step the execution on README. (:heavy_check_mark: done)<br />
 Simple code(Readable). (:heavy_check_mark: done)<br />
 Heroku deploy([Deployed Page](https://arcane-refuge-76371.herokuapp.com/))
-
-
-# Issues
-CSS not working properly, i made the link from settings, django, html and css. But for some reason when i make some changes, its not updating properly. (1)
-
-1- After sometime i found out that my browser's cache was full, so i did Ctrl+F5 to hard refresh and solved the problem. Now Css is working properly
-
-Check my LinkedIn: https://www.linkedin.com/in/alexandre-siedschlag-19309b215/
