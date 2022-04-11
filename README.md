@@ -30,6 +30,7 @@ Heroku (Deploy)<br />
 3- Access [Create](https://arcane-refuge-76371.herokuapp.com/create) to send a JSON format text to create data in data base.
 
 {"username":"username", "name":"Full name", "description":"Random text", "expiration":10}
+Username = Unique, cant be duplicated
 
 4- Access [Update](https://arcane-refuge-76371.herokuapp.com/update/id) to update information to any item, change the 'id' for any positve integer available item.
 
