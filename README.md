@@ -24,10 +24,15 @@ Heroku (Deploy)<br />
 
 ## How to use :arrow_forward:
 1- Access [Main Page](https://arcane-refuge-76371.herokuapp.com/)
+
 2- Access [List](https://arcane-refuge-76371.herokuapp.com/list) to see all data
+
 3- Access [Create](https://arcane-refuge-76371.herokuapp.com/create) to send a JSON format text to create data in data base.
+
 {"username":"username", "name":"Full name", "description":"Random text", "expiration":10}
+
 4- Access [Update](https://arcane-refuge-76371.herokuapp.com/update/id) to update information to any item, change the 'id' for any positve integer available item.
+
 5- Access [Delete](https://arcane-refuge-76371.herokuapp.com/update/id) to delete information to any item, change the 'id' for any positive integer available item.
 
 ## How to makey your own API(step-by-step) :arrow_forward:
