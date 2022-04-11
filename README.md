@@ -41,6 +41,6 @@ Data must be saved in a SQLite DataBase. (:heavy_check_mark: done)<br />
 List data collected. (:heavy_check_mark: done)<br />
 Allow to List/Add/Edit/Delete items. (:heavy_check_mark: done)<br />
 Upload your code in a GitHub repo(Public Acess). (:heavy_check_mark: done)<br />
-Write step-by-step the execution on README. (:heavy_check_mark: done)<br />
+Write the step-by-step on README. (:heavy_check_mark: done)<br />
 Simple code(Readable). (:heavy_check_mark: done)<br />
 Heroku deploy([Deployed Page](https://arcane-refuge-76371.herokuapp.com/)) (:heavy_check_mark: done)<br />
