@@ -25,16 +25,20 @@ Heroku (Deploy)<br />
 ## How to use :arrow_forward:
 1- Access [Main Page](https://arcane-refuge-76371.herokuapp.com/)
 
-2- Access [List](https://arcane-refuge-76371.herokuapp.com/list) to see all data
+2- Access [/list](https://arcane-refuge-76371.herokuapp.com/list) to see all data
 
-3- Access [Create](https://arcane-refuge-76371.herokuapp.com/create) to send a JSON format text to create data in data base.
+3- Access [/create](https://arcane-refuge-76371.herokuapp.com/create) to send a JSON format text to create data in data base.
 
 {"username":"username", "name":"Full name", "description":"Random text", "expiration":10}
 Username = Unique, cant be duplicated
 
-4- Access [Update](https://arcane-refuge-76371.herokuapp.com/update/id) to update information to any item, change the 'id' for any positve integer available item.
+4- Access [/update](https://arcane-refuge-76371.herokuapp.com/update/id) to update information to any item, change the 'id' for any positve integer available item.
 
-5- Access [Delete](https://arcane-refuge-76371.herokuapp.com/update/id) to delete information to any item, change the 'id' for any positive integer available item.
+5- Access [/delete](https://arcane-refuge-76371.herokuapp.com/update/id) to delete information to any item, change the 'id' for any positive integer available item.
+
+6- Access [/filterby/username](https://arcane-refuge-76371.herokuapp.com/filterby/username) to filter information by username.
+
+6- Access [/filterby/name](https://arcane-refuge-76371.herokuapp.com/filterby/name) to filter information by name.
 
 ## Requirements acomplished :brain:
 Django aplication. (:heavy_check_mark: done) <br /> 
