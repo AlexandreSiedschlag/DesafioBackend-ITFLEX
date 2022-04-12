@@ -45,7 +45,6 @@ Username = Unique, cant be duplicated
 ## Requirements acomplished :brain:
 Django aplication. (:heavy_check_mark: done) <br /> 
 Data must be saved in a SQLite DataBase. (:heavy_check_mark: done)<br />
-List data collected. (:heavy_check_mark: done)<br />
 Allow to List/Add/Edit/Delete items. (:heavy_check_mark: done)<br />
 Upload your code in a GitHub repo(Public Acess). (:heavy_check_mark: done)<br />
 Write the step-by-step on README. (:heavy_check_mark: done)<br />
